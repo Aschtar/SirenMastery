@@ -34,7 +34,7 @@ namespace SirenMastery
         } 
         public static void Main()
         {
-            Game.LogTrivial("Loading SirenMastery " + System.Reflection.Assembly.GetExecutingAssembly().GetName().Version + ", developed by Albo1125");
+            Game.LogTrivial("Loading SirenMastery " + System.Reflection.Assembly.GetExecutingAssembly().GetName().Version + ", by Albo1125 updated by Aschtar for LSPDFR 0.4.9");
             Albo1125.Common.DependencyChecker.RegisterPluginForDependencyChecks(PluginName);
             Albo1125.Common.UpdateChecker.VerifyXmlNodeExists(PluginName, FileID, DownloadURL, Path);
             if (Albo1125.Common.DependencyChecker.DependencyCheckMain(PluginName, Albo1125CommonVer, MinimumRPHVer, OtherRequiredFilesToCheckFor: OtherFilesToCheckFor))
